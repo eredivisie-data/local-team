@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<title>Find your local football team</title>
+<html>
+<head>
+<meta charset="utf-8">
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+<link href="css/base.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id='map'>
+  </div>
+  <div id='selections' class="selections">
+    <div class='content'>
+      <div id="toggles">
+      </div>
+    </div>
+  </div>
+  <div id='loading'>
+  </div>
+  <div id='selected'>
+    <h1>Find your local football team</h1>
+  </div>
+  <script src="js/d3.min.js"></script>
+  <script src="js/mapbox.js"></script>
+  <script src="js/voronoi.js"></script>
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiemV0dGVyIiwiYSI6ImVvQ3FGVlEifQ.jGp_PWb6xineYqezpSd7wA';
+    map = L.mapbox.map('map', 'mapbox.light')
+      .fitBounds([[50.681, 3.142], [53.625, 7.229]]);
+
+    url = 'teams.csv';
+    initialSelection = d3.set(['Eredivisie']);
+
+    voronoiMap(map, url, initialSelection);
+  </script>
+</body>
+</html>
