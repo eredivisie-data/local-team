@@ -2,9 +2,11 @@ name,latitude,longitude,type,color
 ADO Den Haag,52.06277,4.38305,Eredivisie,ff0000
 Ajax,52.3143,4.9418,Eredivisie,ff0000
 AZ,52.61277,4.74201,Eredivisie,ff0000
+FC Emmen,52.774732,6.945808,Eredivisie,ff0000
 Excelsior,51.91707,4.52057,Eredivisie,ff0000
 Feyenoord,51.89385,4.52324,Eredivisie,ff0000
 Fortuna Sittard,50.992051,5.843638,Eredivisie,ff0000
+De Graafschap,51.9557,6.30984,Eredivisie,ff0000
 FC Groningen,53.20617,6.59144,Eredivisie,ff0000
 sc Heerenveen,52.95864,5.93614,Eredivisie,ff0000
 Heracles Almelo,52.33883,6.65064,Eredivisie,ff0000
@@ -15,10 +17,7 @@ FC Utrecht,52.07837,5.14579,Eredivisie,ff0000
 Vitesse,51.96282,5.8929,Eredivisie,ff0000
 VVV-Venlo,51.351963,6.179816,Eredivisie,ff0000
 Willem II,51.54263,5.06681,Eredivisie,ff0000
-De Graafschap,51.9557,6.30984,Nacompetitie,007f00
-Almere City,52.394349,5.240489,Nacompetitie,007f00
-FC Emmen,52.774732,6.945808,Nacompetitie,007f00
-Sparta Rotterdam,51.919446,4.433538,Nacompetitie,007f00
+Almere City,52.394349,5.240489,Eerste divisie,007f00
 SC Cambuur,53.20552,5.81461,Eerste divisie,007f00
 FC Den Bosch,51.701647,5.329717,Eerste divisie,007f00
 FC Dordrecht,51.802369,4.689875,Eerste divisie,007f00
@@ -29,6 +28,7 @@ MVV Maastricht,50.857495,5.717886,Eerste divisie,007f00
 NEC,51.82242,5.83721,Eerste divisie,007f00
 RKC Waalwijk,51.686604,5.089015,Eerste divisie,007f00
 Roda JC,50.85698,6.00595,Eerste divisie,007f00
+Sparta Rotterdam,51.919446,4.433538,Eerste divisie,007f00
 Telstar,52.455161,4.634924,Eerste divisie,007f00
 Top Oss,51.755082,5.528135,Eerste divisie,007f00
 FC Twente,52.2365,6.83787,Eerste divisie,007f00
